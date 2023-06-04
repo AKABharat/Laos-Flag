@@ -1,0 +1,53 @@
+    body {
+      margin: 0;
+    }
+
+    .flag {
+      width: 900px;
+      height: 600px;
+      background-color: #c71221;
+      position: relative;
+      margin: 5px;
+      left: 260px;
+    }
+
+    .flag>div {
+      width: 100%;
+      height: 300px;
+      background-color: #042357;
+      position: absolute;
+      top: 150px;
+    }
+
+    .flag>div>div {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      top: 50px;
+      left: 350px;
+    }
+
+    .flag>p {
+      text-align: center;
+      font-size: 80px;
+      margin: 0;
+      padding: 0;
+      color: whitesmoke;
+    }
+
+    div>p {
+      text-align: center;
+      font-size: 70px;
+      margin: 0;
+      padding: 0;
+      color: black;
+    }
+
+    footer {
+      font-size: 15px;
+      color: grey;
+      text-align: center;
+      margin-top: 40px;
+    }
